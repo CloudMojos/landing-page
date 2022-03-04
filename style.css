@@ -129,3 +129,39 @@ header {
     font-family: Impact;
     font-size: 1.5rem;
 }
+
+.quote-content {
+    display: flex;
+    background-color: #f9a0a088;
+    padding: 20vh;
+    margin: 10vw 0;
+    justify-content: center;
+}
+
+.quote {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.quote-span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.another-sign-up {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f3ed;
+    padding: 10vh;
+    border-radius: 25px;
+    margin: 0 20vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #455876;
+    margin-top: 5vh;
+}
