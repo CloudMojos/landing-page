@@ -65,14 +65,14 @@ header {
 
 .header-link {
     font-family: Impact;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #f8faff;
 }
 
 .main-text {
     font-family: Tahoma;
     font-weight: bold;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     color: #f8faff;
 }
 
@@ -105,9 +105,27 @@ header {
     gap: 9vw;
 }
 
+.gallery-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .gallery-img {
     object-fit: cover;
     height: 250px;
     width: 250px;
     border-radius: 15px;
+}
+
+.gallery-title {
+    font-family: Tahoma;
+    font-size: 3rem;
+    margin: 5rem;
+}
+
+.gallery-names {
+    font-family: Impact;
+    font-size: 1.5rem;
 }
